@@ -21,7 +21,7 @@ var age = 35;
 var num = [1,2,3,4,5,6,7,8,9]
 
 for (var i = 0; i < num.length; i++){
-    if (num[i] = true)
+    if (num[i] = true) {
 
     switch (i) {
   case 0:
@@ -51,5 +51,6 @@ for (var i = 0; i < num.length; i++){
   case 8:
     console.log( '9 разработчиков' );
          break;
+}
 }
 }
